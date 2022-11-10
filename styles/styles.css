@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family:'ABeeZee', 'sans-serif';
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+main {
+    background-color: #a55540;
+}
+nav {
+    border-bottom: 3px solid black;
+}
+
+ul {
+    width: 100%;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-top: 5px;
+    font-family: 'Fredoka One', 'cursive'; 
+
+}
+.logo {
+    width: 50px;
+}
+main{
+    margin-top: 60.5px;
+}
+
+p {
+    text-align: center;
+}
+
+.mision { 
+    background-color: #4b4a5a ;
+    width: 100%;
+    height: 500px;
+}
+
+.mision h2 {
+    margin-top: 20px;
+}
+
+.mision p {
+    font-size: 1.2rem;
+    margin-top: 40px;
+}
+
+
+
+.divImagenNoticia {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.imagenNoticia {
+    width: 350px;
+    height: 300px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+footer {
+    background-color: whitesmoke;
+    border-top: 3px solid black;
+}
+
+footer p {
+    color: black;
+}
+
+.buttonFooter {
+    background: #FBCA1F;
+    font-family: inherit;
+    padding: 0.6em 0.6em;
+    font-weight: 900;
+    border: 3px solid black;
+    border-radius: 0.4em;
+    box-shadow: 0.1em 0.1em;
+    color: black;
+    text-decoration: none;
+}
+
+.buttonFooter:hover {
+    transform: translate(-0.05em, -0.05em);
+    box-shadow: 0.15em 0.15em;
+}
+
+.buttonFooter:active {
+    transform: translate(0.05em, 0.05em);
+    box-shadow: 0.05em 0.05em;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+/* INDEX VISTA ESCRITORIO */
+
+
+
+
+
+/* CSS CONTACTO */
+
+.mainContacto {
+    padding: 20px;
+}
+
+.sectionForm {
+    padding-top: 10%;
+}
+
+.sectionForm h2 {
+    font-size: 1.5rem;
+}
+
+.sectionForm p{
+    font-size: 1.2rem;
+    margin: 10px;
+    text-align: center;
+}
+
+.formulario {
+    margin: 10px;
+}
+
+label {
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+}
+
+input {
+    text-align: center;
+    width: 100%;
+}
+
+input:focus {
+    color: black;
+}
+
+textarea {
+    width: 100%;
+}
+
+.buttonForm {
+    width: 80%;
+    margin: 0 10%;
+}
+
+
+/* CSS QUIENES SOMOS */
+
+.divImagenSomos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenSomos {
+    height: 260px;
+    width: 300px;
+    margin: 10px;
+    border: 3px solid black;
+    border-radius: 5px;
+
+}
+
+.bodySomos h2, p {
+    margin: 10px;
+}
+
+/* CSS PRODUCTOS */
+
+.bodyProductos h2 {
+    font-size: 2rem;
+    padding-top: 10px;
+}
+
+
+.divProducto {
+    margin: 5px 5px 0 5px;
+    padding-bottom: 5px;
+}
+
+.divProductoImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divProductoImagen__img{
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+/* CSS SERVICIOS */
+
+.mainServicios {
+    padding-bottom: 5px;
+}
+
+.divServiciosImagen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divServiciosImagen__img {
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.imagenSala {
+    height: 250px;
+    width: 300px;
+}
+
+/* /////////////////////////////////////////////////////////////////////////////////////////////// */
+
+@media (min-width: 1024px) {
+
+/* INDEX VISTA ESCRITORIO */
+    .mision {
+        height: 600px;
+    }
+
+    .mision p {
+        font-size: 2rem;
+        margin-top: 100px;
+    }
+
+    .mision h2 {
+        font-size: 3rem;
+    }
+
+/* CONTACTO VISTA ESCRITORIO */
+    .sectionForm h2 {
+        font-size: 4rem;
+    }
+    .sectionForm p {
+        font-size: 1.6rem;
+    }
+
+    .mainContacto {
+        padding-bottom: 150px;
+    }
+
+}
